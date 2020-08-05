@@ -1,0 +1,213 @@
+@import './theme.scss';
+
+@media only screen and (max-device-width: 600px) { 
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .contact-inner-container {
+        width: 380px;
+        height: 400px;
+        margin: 40px;
+        border: 1px solid gray;
+        background-color: #393e46;
+        border-radius: 2px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 2px;
+        height: 100%;
+    }
+
+    .contact-title-input {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+    }
+
+    .contact-email-input {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+    }
+
+    .contact-message-input {
+        margin: 20px;
+        border: none;
+        outline: none;
+        height: 240px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .contact-submit-button-container {
+        height: 60px;
+    }
+
+    .contact-submit-button {
+        width: 100px;
+        height: 40px;
+        float: right;
+        border: none;
+        border: 1px solid gray; 
+        border-radius: 3px;
+        background-color: #393e46;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        transition: 1s;
+        outline: none;
+    }
+
+    .contact-submit-button:hover {
+        border: 1px solid white;
+        background-color: rgb(56, 116, 207);
+    }
+
+    .contact-title-input:focus, .contact-email-input:focus {
+        border: 1.5px solid rgb(0, 132, 255);
+    }
+
+    .contact-message-input:focus {
+        border: 1.5px solid rgb(0, 132, 255);
+    }
+
+    .contact-me {
+        font-size: 40px;
+        color: rgb(233, 233, 233);
+    }
+
+    .contact-error-message {
+        color: rgb(236, 96, 96);
+    }
+}
+
+@media only screen and (min-device-width: 600px) { 
+
+    .contact-container {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-inner-container {
+        width: 600px;
+        height: 400px;
+        margin: 40px;
+        border: 1px solid gray;
+        background-color: #393e46;
+        border-radius: 2px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 2px;
+        height: 100%;
+    }
+
+    .contact-title-input {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+    }
+
+    .contact-email-input {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        height: 40px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+    }
+
+    .contact-message-input {
+        margin: 20px;
+        border: none;
+        outline: none;
+        height: 240px;
+        border-radius: 3px;
+        text-indent: 10px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .contact-submit-button-container {
+        width: 600px;
+        height: 60px;
+    }
+
+    .contact-submit-button {
+        width: 100px;
+        height: 40px;
+        float: right;
+        border: none;
+        border: 1px solid gray; 
+        border-radius: 3px;
+        background-color: #393e46;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        transition: 1s;
+        outline: none;
+    }
+
+    .contact-submit-button:hover {
+        border: 1px solid white;
+        background-color: rgb(56, 116, 207);
+    }
+
+    .contact-title-input:focus, .contact-email-input:focus {
+        border: 1.5px solid rgb(0, 132, 255);
+    }
+
+    .contact-message-input:focus {
+        border: 1.5px solid rgb(0, 132, 255);
+    }
+
+    .contact-me {
+        font-size: 40px;
+        color: rgb(233, 233, 233);
+    }
+
+    .contact-error-message {
+        color: rgb(236, 96, 96);
+    }
+}

@@ -1,0 +1,85 @@
+@import './theme.scss';
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.432);
+  z-index: 100;
+}
+
+.modal-child-visitor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 400px;
+  height: 520px;
+  max-width: 100%;
+  border-radius: 3px;
+  z-index:100;
+}
+
+.visitor-modal-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+}
+
+.modal-child-map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 1000px;
+  height: 720px;
+  max-width: 100%;
+  border-radius: 3px;
+  z-index:100;
+  margin-top: 30px;
+  animation: modal-height 1s;
+}
+
+.map-modal-container {
+  color: black;
+}
+
+@keyframes modal-height {
+  0% {
+    top: 30%;
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+.map-modal-title {
+  text-align: center;
+  color: rgba(31, 30, 30, 0.733);
+}
+
+.facts-container-modal {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  border-bottom: solid 0.5px grey;
+}
+
+#modal-span {
+  font-weight: 700;
+}
+
+.details-modal {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}

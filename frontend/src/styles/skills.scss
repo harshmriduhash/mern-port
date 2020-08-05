@@ -1,0 +1,87 @@
+@import './theme.scss';
+
+@media only screen and (max-device-width: 600px) { 
+    .skills-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-inner-container {
+        width: 1050px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills-logo-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .skills-logo-container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-icon {
+        width: auto;
+        height: 40px;
+        padding: 18px;
+    }
+
+    .skills-header {
+        text-align: center;
+        font-size: 26px;
+        color: #dadada;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-device-width: 600px) { 
+    .skills-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-inner-container {
+        width: 1050px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills-logo-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .skills-logo-container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-icon {
+        width: auto;
+        height: 40px;
+        padding-bottom: 10px;
+    }
+
+    .skills-header {
+        text-align: center;
+        font-size: 26px;
+        color: #dadada;
+        font-weight: 500;
+    }
+}

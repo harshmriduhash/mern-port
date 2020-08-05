@@ -1,0 +1,95 @@
+@import './theme.scss';
+
+.map-container {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    // width: 100%;
+}
+
+.loader-container {
+  position: fixed;
+  top: 60;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.832);
+  z-index: 100;
+}
+
+.loader-details {
+  display: inline-block;
+  width: auto;
+  height: 80px;
+  position: absolute;
+  top: 54%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.console {
+  position: absolute;
+  border-radius: 4px;
+  width: 240px;
+  height: auto;
+  margin: 10px;
+  margin-top: 140px;
+  padding: 10px 20px;
+  background-color: white;
+  // opacity: 80%;
+  color: black;
+  transform: 1s ease-in-out;
+}
+
+.button-console {
+  position: absolute;
+  border-radius: 5px;
+  outline: none;
+  width: 280px;
+  height: auto;
+  margin: 10px;
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: white;
+  // opacity: 80%;
+  color: black;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-console:hover {
+  background-color: rgb(231, 209, 209);
+}

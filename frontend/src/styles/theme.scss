@@ -1,0 +1,54 @@
+html, body{
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff;
+  background: #222831;
+	padding: 0;
+	border: 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+//bg = background
+
+// Button / small element colors
+// First and second are for buttons/ dropdowns on black backgrounds
+$first-gray-bg: #4c5159;
+$second-gray-bg: #C4C4C4;
+
+// Element colors
+// light gray should be used for pains on white bg
+$light-gray-bg: #EDEDED;
+
+//Text colors for non-white text
+$second-gray-txt: #aaadb3;
+$third-gray-txt: #4c5159;
+
+//General theme colors from figma color pallette
+$figma-green: #9FB89B;
+$figma-peach:  #F6CFAF;
+$figma-grapefruit: #E68981;
+$figma-red: #DA5663;
+
+
+.w-full {
+  width: 100%!important;
+}
+
+.h-full {
+  height: 100% !important;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+}

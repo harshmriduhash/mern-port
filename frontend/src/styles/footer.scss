@@ -1,0 +1,15 @@
+@import './theme.scss';
+
+.footer-wrapper {
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(136, 238, 252, 0.253);
+    text-align: center;
+}
+
+.footer-quote {
+    transform: translateY(50%);
+    color: rgb(206, 206, 206);
+}
